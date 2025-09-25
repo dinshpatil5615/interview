@@ -1,3 +1,5 @@
+#variables For RDS 
+
 variable "engine_name" {
   description = "Enter the DB engine"
   type        = string
@@ -41,3 +43,4 @@ variable "instance_class" {
   type    = string
   default = "db.t2.micro"
 }
+
